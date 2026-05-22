@@ -54,6 +54,8 @@
 
 文档站点包含详细的使用指南、API 文档、部署教程等完整信息。
 
+**当前 Cloudflare 部署与换机恢复指南**: [docs/DEPLOYMENT.zh-CN.md](./docs/DEPLOYMENT.zh-CN.md)
+
 ## 特性
 
 - 🔒 **隐私保护**：保护您的真实邮箱地址，远离垃圾邮件和不必要的订阅

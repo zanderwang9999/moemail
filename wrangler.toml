@@ -1,0 +1,13 @@
+name = "moemail-github"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "moemail"
+database_id = "eaa3c072-6961-4143-9734-647de59866b7"
+
+[[kv_namespaces]]
+binding = "SITE_CONFIG"
+id = "8d97e2de9d74422092597e459d235d21"

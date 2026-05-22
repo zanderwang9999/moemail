@@ -41,7 +41,7 @@ yarn-error.log*
 next-env.d.ts
 
 .wrangler
-wrangler.toml
+wrangler.local.toml
 wrangler.email.toml
 wrangler.cleanup.toml
 

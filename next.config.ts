@@ -3,7 +3,7 @@ import createNextIntlPlugin from 'next-intl/plugin'
 import { setupDevPlatform } from '@cloudflare/next-on-pages/next-dev';
 
 async function setup() {
-  if (process.env.NODE_ENV === 'development') {
+  if (process.env.NODE_ENV === 'development' && process.env.SKIP_CF_DEV_PLATFORM !== '1') {
     await setupDevPlatform()
   }
 }

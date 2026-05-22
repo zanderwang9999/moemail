@@ -130,7 +130,7 @@ function matchLocale(lang: string): Locale | null {
 
 export const config = {
   matcher: [
-    '/((?!_next|.*\\..*).*)', // all pages excluding static assets
+    '/((?!api|_next|.*\\..*).*)', // all pages excluding API and static assets
     '/api/emails/:path*',
     '/api/webhook/:path*',
     '/api/roles/:path*',

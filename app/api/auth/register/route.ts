@@ -7,7 +7,8 @@ export const runtime = "edge"
 
 export async function POST(request: Request) {
   try {
-    const json = await request.json() as AuthSchema
+    const text = await request.text()
+    const json = JSON.parse(text) as AuthSchema
     
     try {
       authSchema.parse(json)
